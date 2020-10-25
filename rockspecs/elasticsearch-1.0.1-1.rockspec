@@ -1,7 +1,7 @@
 package = "elasticsearch"
 version = "1.0.1-1"
 source = {
-  url = "git://github.com/DhavalKapil/elasticsearch-lua",
+  url = "git://github.com/anjieych/elasticsearch-lua",
   tag = "v1.0.1"
 }
 description = {
@@ -9,11 +9,11 @@ description = {
   detailed = [[
     This is an elasticsearch client written in Lua. In accordance with other official low level clients, the client accepts associative arrays in the form of lua table as parameters.
   ]],
-  homepage = "https://github.com/DhavalKapil/elasticsearch-lua",
+  homepage = "https://github.com/anjieych/elasticsearch-lua",
   license = "MIT"
 }
 dependencies = {
-  "lua >= 5.1, < 5.4",
+  "lua >= 5.1, <=5.4",
   "luasocket",
   "lua-cjson",
   "lunitx"
